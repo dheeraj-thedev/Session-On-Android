@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dimpy.acm_sessiononandroid_01.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color05"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:background="@color/color04"
+            android:gravity="center"
+            android:text="Your invite to the Android Session"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/color02" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:foregroundTint="@color/colorPrimary"
+            android:padding="20dp"
+            android:text="Ahoy!\n\nOpening session of ACM-IGDTUW on Android App Devlopment.\nSyllabus to be covered:\n1.) My First App\n2.) Front End features\n3.) Studying XML: What, How, and Why?\n4.) BackEnd Features\n5.) Let's build a Money Manager App!\n\nAndroid has over 2 billion global Monthly users! Let's build the next best app ever!\nVenue: SEMINAR HALL, Admin Block\nDate: 18th Jan '18\nTime: 12-2pm\n\n\nStay Tuned to the ACM-Student Chapter Facebook/Twitter handle to know more!\nfb.com/AcmStudentChaptersIGIT\n"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:scaleType="centerInside"
+            android:layout_height="500dp"
+            android:layout_gravity="center"
+            android:src="@drawable/android" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Supported by"
+            android:padding="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="@color/color02"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/acm_logo"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/igdtu_logo"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
