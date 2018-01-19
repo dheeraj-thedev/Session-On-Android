@@ -6,4 +6,5 @@ Content:
 -> Getting started with Android App Development
 -> Video to understand "Layouts"
 -> Cheat Sheet for XML views
-
+-> App's java code to inculcate firebase
+-> (Star the repo to stay updated)
